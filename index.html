@@ -25,7 +25,7 @@
           </div>
           <div class="row your-city">
             <div class="col-8 form">
-              <form id="enterCity">
+              <form id="search-form">
                 <div class="mb-2">
                   <input
                     type="text"
@@ -38,27 +38,29 @@
             </div>
             <div class="col-4 buttons">
               <a href="#" class="btn btn-primary search">Search</a>
-              <a href="#" class="btn btn-success current" id="current"
+              <a
+                href="#"
+                class="btn btn-success current"
+                id="current-location-button"
                 >Current</a
               >
             </div>
           </div>
           <div class="row berlin-now">
             <div class="col">
-              <h1 class="city" id="city">Berlin</h1>
+              <h1 class="city" id="city"></h1>
               <div class="col currentDate"></div>
-              <div class="col" id="description">Cloudy</div>
+              <div class="col" id="description"></div>
             </div>
           </div>
 
           <div class="row current-temperature">
-            <div class="col-1">
+            <!-- <div class="col-1">
               <i class="fa-solid fa-cloud cloudy" style="color: #c0c0c0"></i>
-            </div>
-
+            </div> -->
             <div class="col-7">
-              <span class="temperature" id="temperature">17</span>
-              <span class="units"><a href="#" id="celsius-link">°C</a></span>
+              <span class="temperature" id="temperature"></span>
+              <span class="units">Cº</span>
             </div>
             <div class="col-4 precipitation">
               <h5>
