@@ -78,3 +78,10 @@ h5 {
 a {
   text-decoration: none;
 }
+.github-link {
+  margin-left: 250px;
+}
+
+.weather-box {
+  margin-bottom: 0;
+}
